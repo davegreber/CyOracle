@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background: radial-gradient(#000000, #21001e);
 }
 
 code {
@@ -38,3 +38,19 @@ input {
 image {
   width: 60vw;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #28001c;
+  text-align: center;
+  padding: 2px;
+  box-sizing: border-box;
+  font-size: smaller;
+}
+
+
+
+
