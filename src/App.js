@@ -40,18 +40,29 @@ function App() {
 
   if (randomImage) {
     return (
-      <div>
-        <img src={randomImage.src} alt={randomImage.alt} />
+      <div className="button-container">
+        <img src={randomImage.src} alt={randomImage.alt} style={{ width: "60vw" }}/>
         <p>{randomImage.caption}</p>
-        <button onClick={handleResetClick}>Reset</button>
+        <div className="button-container">
+          <button onClick={handleResetClick}>  ask another question  </button>
+        </div>
       </div>
     );
   }
 
   return (
-    <div>
-      <input type="text" value={text} onChange={handleTextChange} />
-      <button onClick={handleButtonClick}>Select Random Image</button>
+    <div className="button-container">
+      <input 
+      type="text" 
+      value={text} 
+      onChange={handleTextChange} 
+      placeholder="ask a question about your present"
+      style={{ textAlign: "center" }} 
+      />
+
+      <div className="button-container">
+        <button onClick={handleButtonClick}>  Ask  </button>
+      </div>
     </div>
   );
 }

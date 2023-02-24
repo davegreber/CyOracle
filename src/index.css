@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+image {
+  width: 60vw;
 }
