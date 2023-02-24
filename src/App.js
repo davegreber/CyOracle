@@ -57,7 +57,7 @@ function App() {
     setText("");
     setRandomImage(null);
     setInputWidth("60vw");
-    setInputPlaceholder("ask another question about your present");
+    setInputPlaceholder("ask another question");
   };
 
   if (randomImage) {
@@ -84,7 +84,7 @@ function App() {
       />
 
       <div className="button-container">
-        <button onClick={handleButtonClick}>Ask</button>
+        <button onClick={handleButtonClick}>deal</button>
       </div>
     </div>
   );

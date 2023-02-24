@@ -29,9 +29,12 @@ header {
 p {
   color: white;
   text-align: center;
+  font-family: roboto;
 }
 
 h1 {
+font-family: 'Phudu';
+font-weight: 900;
 
 }
 
@@ -39,11 +42,14 @@ h2 {
   color: white;
   text-align: center;
   size: 2vw;
+  font-family: 'Phudu';
+  font-weight: 300;
 }
 
 h3 {
   color: white;
   size: 5vw;
+  font-family: roboto;
 }
 
 .button-container {
@@ -52,9 +58,12 @@ h3 {
 
 input[type="text"] {
   text-align: center;
+  font-family: monospace;
 }
 
+button {
 
+}
 
 image {
   width: 60vw;
