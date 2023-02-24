@@ -5,15 +5,22 @@ const images = [
     name: "tarot_cups_9.jpg",
     src: "/images/tarot_cups_9.jpg",
     alt: "stone relief of vegetables",
-    title: "The 9 of Cups",
+    title: "9 of Cups",
     caption: "The Smart refrigerator with grocery ordering represents abundance, prosperity, and satisfaction in the emotional and relational aspects of life. This card may indicate that it's time to achieve abundance and satisfaction. Use the smart refrigerator with grocery ordering to ensure your fridge is always stocked and enjoy the abundance in your life."
   },
   {
     name: "tarot_cups_2.jpg",
     src: "/images/tarot_cups_2.jpg",
     alt: "abstract stone rune",
-    title: "The 2 of Cups",
+    title: "2 of Cups",
     caption: "The Virtual reality wedding planner represents balance, harmony, and stability in the emotional and relational aspects of life. This card may indicate that it's time to find balance and harmony in your relationships and emotions. Use the virtual reality wedding planner to plan the perfect wedding, and experience the harmony and balance in your life."
+  },
+  {
+    name: "tarot_cups_1.jpg",
+    src: "/images/tarot_cups_1.jpg",
+    alt: "abstract stone rune",
+    title: "Ace of Cups",
+    caption: "The Smart water bottle with filtration represents new beginnings and potential in the emotional and relational aspects of life. This card may indicate that it's time to start something new in your emotional life, such as a new relationship or a deeper connection with your current partner. Use the smart water bottle with filtration to ensure you are hydrated and take care of your physical and mental well-being. Take a sip, and begin a new journey!"
   },
   // Add the rest of the images with their captions here.
 ];
@@ -35,8 +42,16 @@ function App() {
   };
 
   const handleButtonClick = () => {
-    setRandomImage(selectRandomImage());
+    const randomImage = selectRandomImage();
+    setRandomImage(randomImage);
+    setShowImage(false);
+    setTimeout(() => {
+      setShowImage(true);
+      setRandomImage(randomImage);
+    }, 200);
   };
+
+  const [showImage, setShowImage] = useState(false);
 
   const handleResetClick = () => {
     setText("");
@@ -48,7 +63,7 @@ function App() {
   if (randomImage) {
     return (
       <div className="container">
-        <img src={randomImage.src} alt={randomImage.alt} style={{ width: "50vw" }}/>
+        <img src={randomImage.src} alt={randomImage.alt} style={{ width: "50vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`}/>
         <h3>{randomImage.title}</h3>
         <p>{randomImage.caption}</p>
         <div className="button-container">
