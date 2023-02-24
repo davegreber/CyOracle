@@ -18,9 +18,32 @@ header {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; /* set the width of the container to 80% of the viewport width */
+  margin: auto; /* center the container horizontally */
+}
+
 p {
   color: white;
   text-align: center;
+}
+
+h1 {
+
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  size: 2vw;
+}
+
+h3 {
+  color: white;
+  size: 5vw;
 }
 
 .button-container {
@@ -31,9 +54,7 @@ input[type="text"] {
   text-align: center;
 }
 
-input {
-  text-align: center;
-}
+
 
 image {
   width: 60vw;
