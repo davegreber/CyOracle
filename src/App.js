@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
+
 const images = [
+  
   {
     name: "tarot_cups_9.jpg",
     src: "/images/tarot_cups_9.jpg",
