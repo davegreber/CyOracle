@@ -78,7 +78,7 @@ const images = [
     src: "/images/tarot_cups_11.jpg",
     alt: "stone relief of vegetables",
     title: "Page of Smart-Cups",
-    caption: "The Audiobook with AI-generated Sound Effects represents messages, new information, and new opportunities in the emotional and relational aspects of life. This card may indicate that it's time to be open to new information and new opportunities. Enhance your listening experience and open yourself up to new perspectives, ideas and sound effects."
+    caption: "The Audiobook with AI-generated Sound Effects represents messages, new information, and new opportunities in the emotional and relational aspects of life. This card may indicate that it's time to be open to new information and new opportunities. Enhance your listening experience and absorb fresh ideas and sound effects."
   },
   {
     name: "tarot_cups_12.jpg",
@@ -158,7 +158,7 @@ const images = [
     src: "/images/tarot_wands_8.jpg",
     alt: "abstract stone rune with tree",
     title: "Eight of Smart-Wands",
-    caption: "The End-to-end encrypted messaging app represents communication, travel and movement. This card may indicate that it's time to communicate effectively and securely with others. Use the end-to-end encrypted messaging app to ensure your messages are private and protected."
+    caption: "The End-to-End Encrypted Messaging App represents communication, travel and movement. This card may indicate that it's time to communicate effectively and securely with others. Use the end-to-end encrypted messaging app to ensure your messages are private and protected."
   },
   {
     name: "tarot_wands_9.jpg",
@@ -231,7 +231,7 @@ const images = [
     src: "/images/tarot_swords_4.jpg",
     alt: "abstract sand relief sculpture",
     title: "Four of Smart-Swords",
-    caption: "The Smart Mirror with Virtual Try-On represents introspection, contemplation and inner peace in the mental and intellectual aspects of life. This card may indicate that it's time to look within yourself and find inner peace. Experiment with different styles and looks, express yourself authentically and confidently, while also supporting your inner journey towards self-discovery and inner harmony."
+    caption: "The Smart Mirror with Virtual Try-On represents introspection, contemplation and inner peace in the mental and intellectual aspects of life. This card may indicate that it's time to look within yourself and find peace. Experiment with different styles and looks, express yourself authentically and confidently, while also supporting your journey towards self-discovery and inner-harmony."
   },
   {
     name: "tarot_swords_5.jpg",
@@ -273,7 +273,7 @@ const images = [
     src: "/images/tarot_swords_10.jpg",
     alt: "abstract sand relief sculpture",
     title: "Ten of Smart-Swords",
-    caption: "The Virtual Reality Therapy App represents contentment, happiness, and fulfillment in the mental and intellectual aspects of life. Improve your mental health and experience contentment and fulfillment. Through the immersive experience, you can gain new perspectives, expand your awareness, and find greater peace and happiness in your inner world."
+    caption: "The Virtual Reality Therapy App represents contentment, happiness, and fulfillment in the mental and intellectual aspects of life. Improve your mental health and experience. Through the immersive experience, you can gain new perspectives, expand your awareness, and find greater peace and happiness in your inner world."
   },
   {
     name: "tarot_swords_11.jpg",
@@ -426,7 +426,7 @@ const images = [
     src: "/images/tarot_MAJOR_3.jpg",
     alt: "abstract dirt relief",
     title: "III. Smart-Ring",
-    caption: "intuition, secret knowledge, and the ability to onboard information at a glance: intuition, secrets, and the unconscious mind. This card may signify the importance of trusting one's intuition and responding to inner guidance. Follow your gut feelings, trust the whispers of your inner voice."
+    caption: "inner voice, secret knowledge, and the ability to onboard information at a glance. This card may signify the importance of trusting one's intuition and responding to inner guidance. Follow your gut feelings, trust the whispers of your inner voice."
   },
   {
     name: "tarot_MAJOR_4.jpg",
@@ -447,7 +447,7 @@ const images = [
     src: "/images/tarot_MAJOR_6.jpg",
     alt: "abstract dirt relief",
     title: "VI. Music-Streaming Service with Podcasts",
-    caption: "guidance, tradition and wisdom. This card may indicate the need for guidance and seeking advice from experts. Embrace the power of knowledge and find your rhythm."
+    caption: "seeking, tradition and wisdom. This card may indicate the need for guidance from experts. Embrace the power of knowledge and find your rhythm."
   },
   {
     name: "tarot_MAJOR_7.jpg",
