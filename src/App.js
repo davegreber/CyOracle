@@ -50,7 +50,7 @@ const images = [
     src: "/images/tarot_cups_7.jpg",
     alt: "abstract stone rune with ice cream",
     title: "Seven of Smart-Cups",
-    caption: "The Virtual Reality Ice Cream Shop represents temptation, indulgence, and pleasure in the emotional and relational aspects of life. This card may be a sign that it's time to spoil yourself a little and indulge in some well-deserved treats or luxuries. Use the virtual reality ice cream shop to indulge in your favorite flavors of life, and spoil yourself with some sweet delight."
+    caption: "The Virtual Reality Ice Cream Shop represents temptation, indulgence, and pleasure in the emotional and relational aspects of life. This card may be a sign that it's time to indulge in some well-deserved treats or luxuries. Use the virtual reality ice cream shop to taste the favorite flavors of life, and spoil yourself with some sweet delight."
   },
   {
     name: "tarot_cups_8.jpg",
@@ -101,7 +101,104 @@ const images = [
     title: "King of Smart-Cups",
     caption: "The Self-Care App with Biofeedback represents leadership, success and power in the emotional and relational aspects of life. This card may indicate that it's time to take charge and lead the way. You can tap into the universe of biofeedback and gain greater insight into your emotional state, allowing you to make more informed decisions and take actions that align with your values and goals."
   },
-
+  {
+    name: "tarot_wands_1.jpg",
+    src: "/images/tarot_wands_1.jpg",
+    alt: "abstract stone rune",
+    title: "Ace of Smart-Wands",
+    caption: "The Electric Skateboard represents new beginnings and potential in the area of action, creativity and pursuit of one's goals. This card may indicate that it's time to start something new and exciting, such as a new project, a new hobby or a new venture. Take the skateboard and ride into the future!"
+  },
+  {
+    name: "tarot_wands_2.jpg",
+    src: "/images/tarot_wands_2.jpg",
+    alt: "abstract stone rune",
+    title: "Two of Smart-Wands",
+    caption: "The GPS Tracking for Pets represents planning, vision and decision making in the area of action, creativity and pursuit of one's goals. This card may indicate that it's time to make decisions and plan for the safety and well-being of your animal companions. With the help of GPS tracking you can keep an eye on your pet's location and ensure their safety. Keep the pets of your consciousness safe and secure!"
+  },
+  {
+    name: "tarot_wands_3.jpg",
+    src: "/images/tarot_wands_3.jpg",
+    alt: "abstract stone rune",
+    title: "Three of Smart-Wands",
+    caption: "The Virtual Reality Travel App represents exploration, adventure and broadening horizons. This card may indicate that it's time to explore new places, discover new cultures and broaden your horizons. Travel to the unknown and expand your mind!"
+  },
+  {
+    name: "tarot_wands_4.jpg",
+    src: "/images/tarot_wands_4.jpg",
+    alt: "abstract stone rune",
+    title: "Four of Smart-Wands",
+    caption: "The Streaming Device with Voice Control represents stability, security and celebration. This card may indicate that it's time to enjoy the fruits of your labor and celebrate your achievements. Use the streaming device with voice control to access your favorite shows and celebrate in style!"
+  },
+  {
+    name: "tarot_wands_5.jpg",
+    src: "/images/tarot_wands_5.jpg",
+    alt: "abstract stone rune",
+    title: "Five of Smart-Wands",
+    caption: "The Social Media Fact-Checking Tool represents competition, challenges, and conflict. This card may indicate that it's time to face challenges and competition head-on. Use the social media fact-checking tool to make sure you're getting accurate information and stay ahead of the competition."
+  },
+  {
+    name: "tarot_wands_6.jpg",
+    src: "/images/tarot_wands_6.jpg",
+    alt: "abstract stone rune with clouds",
+    title: "Six of Smart-Wands",
+    caption: "The Online Reputation Management service represents victory, recognition, and success. This card may indicate that it's time to take control of your online presence and enhance your reputation. Use the online reputation management service to improve your image and gain recognition for your achievements."
+  },
+  {
+    name: "tarot_wands_7.jpg",
+    src: "/images/tarot_wands_7.jpg",
+    alt: "abstract stone rune with ice cream",
+    title: "Seven of Smart-Wands",
+    caption: "The Cybersecurity for IoT devices represents defense, resilience and protection. This card may indicate that it's time to protect yourself and your assets from cyber threats. Use cybersecurity for IoT devices to keep your connected devices safe and secure."
+  },
+  {
+    name: "tarot_wands_8.jpg",
+    src: "/images/tarot_wands_8.jpg",
+    alt: "abstract stone rune with tree",
+    title: "Eight of Smart-Wands",
+    caption: "The End-to-end encrypted messaging app represents communication, travel and movement. This card may indicate that it's time to communicate effectively and securely with others. Use the end-to-end encrypted messaging app to ensure your messages are private and protected."
+  },
+  {
+    name: "tarot_wands_9.jpg",
+    src: "/images/tarot_wands_9.jpg",
+    alt: "stone relief of vegetables",
+    title: "Nine of Smart-Wands",
+    caption: "The AI-powered antivirus software represents preparation, resilience, and perseverance. This card may indicate that it's time to prepare for challenges and protect yourself from threats. Use the AI-powered antivirus software to keep your ego safe from psychic malware and other cyber threats."
+  },
+  {
+    name: "tarot_wands_10.jpg",
+    src: "/images/tarot_wands_10.jpg",
+    alt: "stone relief of vegetables",
+    title: "Ten of Smart-Wands",
+    caption: "The Smart luggage with built-in scale represents completion, responsibility, and hard work. This card may indicate that it's time to finish what you've started and take responsibility for your actions. Use the smart luggage with built-in scale to make traveling a breeze and avoid any unexpected metaphorical charges for overweight luggage."
+  },
+  {
+    name: "tarot_wands_11.jpg",
+    src: "/images/tarot_wands_11.jpg",
+    alt: "stone relief of vegetables",
+    title: "Page of Smart-Wands",
+    caption: "The Delivery drone with package locker represents messages, new information and new opportunities. This card may indicate that it's time to be open to mysterious communications and windfalls. Use a delivery drone with package locker to receive your incoming content safely and securely."
+  },
+  {
+    name: "tarot_wands_12.jpg",
+    src: "/images/tarot_wands_12.jpg",
+    alt: "stone relief of vegetables",
+    title: "Knight of Smart-Wands",
+    caption: "The Search and Rescue drone with Thermal Imaging represents action, adventure, and courage. This card may indicate that it's time to take action and pursue your passions. Use the search and rescue drone with thermal imaging to help others in need and make a difference."
+  },
+  {
+    name: "tarot_wands_13.jpg",
+    src: "/images/tarot_wands_13.jpg",
+    alt: "stone relief of vegetables",
+    title: "Queen of Smart-Wands",
+    caption: "The Smart Kitchen Appliance with Voice Control represents creativity, inspiration, and nurturing. This card may indicate that it's time to tap into your creative potential and nurture yourself and others. Use the smart kitchen appliance with voice control to compose masterful meals with the skill of a chef."
+  },
+  {
+    name: "tarot_wands_14.jpg",
+    src: "/images/tarot_wands_14.jpg",
+    alt: "stone relief of vegetables",
+    title: "King of Smart-Wands",
+    caption: "The Robotics Engineer with Machine Learning represents leadership, success and power. This card may indicate that it's time to take charge and lead the way in your field. Use the knowledge and skills of a robotics engineer with machine learning to create innovative and efficient solutions. With this card, you are ready to create something truly amazing."
+  },
 
   // Add the rest of the images with their captions here.
 ];
