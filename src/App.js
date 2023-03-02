@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 const images = [
-  
+//cups
   {
     name: "tarot_cups_1.jpg",
     src: "/images/tarot_cups_1.jpg",
@@ -101,6 +101,9 @@ const images = [
     title: "King of Smart-Cups",
     caption: "The Self-Care App with Biofeedback represents leadership, success and power in the emotional and relational aspects of life. This card may indicate that it's time to take charge and lead the way. You can tap into the universe of biofeedback and gain greater insight into your emotional state, allowing you to make more informed decisions and take actions that align with your values and goals."
   },
+
+  //wands
+
   {
     name: "tarot_wands_1.jpg",
     src: "/images/tarot_wands_1.jpg",
@@ -198,6 +201,107 @@ const images = [
     alt: "stone relief of vegetables",
     title: "King of Smart-Wands",
     caption: "The Robotics Engineer with Machine Learning represents leadership, success and power. This card may indicate that it's time to take charge and lead the way in your field. Use the knowledge and skills of a robotics engineer with machine learning to create innovative and efficient solutions. With this card, you are ready to create something truly amazing."
+  },
+
+  //swords
+
+  {
+    name: "tarot_swords_1.jpg",
+    src: "/images/tarot_swords_1.jpg",
+    alt: "aabstract sand relief sculpture",
+    title: "Ace of Smart-Swords",
+    caption: "The Voice Recognition Software represents new beginnings, clarity, and decision making. This card may indicate that it's time to start something new, express yourself clearly and make important decisions. Use the voice recognition software to command your devices and take control of your environment. Let your voice be heard… and understood."
+  },
+  {
+    name: "tarot_swords_2.jpg",
+    src: "/images/tarot_swords_2.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Two of Smart-Swords",
+    caption: "The Self-Driving Car represents balance, harmony and stability in the mental and intellectual aspects of life. This card may indicate that it's time to find equilibrium in your thoughts and actions. Let your mind drive you safely and efficiently, while your heart can focus on what's important."
+  },
+  {
+    name: "tarot_swords_3.jpg",
+    src: "/images/tarot_swords_3.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Three of Smart-Swords",
+    caption: "The Virtual Personal Shopping Assistant represents celebration, joy and togetherness in the mental and intellectual aspects of life. This card may indicate that it's time to honor, have fun and enjoy the company of others. Let the shopping assistant guide you towards making thoughtful and informed purchases, while also encouraging you to take time to appreciate the people in your life who support your intellectual growth."
+  },
+  {
+    name: "tarot_swords_4.jpg",
+    src: "/images/tarot_swords_4.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Four of Smart-Swords",
+    caption: "The Smart Mirror with Virtual Try-On represents introspection, contemplation and inner peace in the mental and intellectual aspects of life. This card may indicate that it's time to look within yourself and find inner peace. Experiment with different styles and looks, express yourself authentically and confidently, while also supporting your inner journey towards self-discovery and inner harmony."
+  },
+  {
+    name: "tarot_swords_5.jpg",
+    src: "/images/tarot_swords_5.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Five of Smart-Swords",
+    caption: "The Virtual Reality Language Learning App represents loss, grief and healing in mental and intellectual aspects of life. This card may indicate that it's time to grieve, heal, and move on from a loss. Use the Virtual Reality Language Learning App to learn a new language, and find closure and healing."
+  },
+  {
+    name: "tarot_swords_6.jpg",
+    src: "/images/tarot_swords_6.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Six of Smart-Swords",
+    caption: "The Smart Scale with Body Composition Analysis represents memories, nostalgia and looking back in the mental and intellectual aspects of life. This card may indicate that it's time to look back on past memories and reflect. As you track your physical progress, let it also serve as a reminder to honor the memories and experiences that have shaped you, and use them to inspire and motivate you towards greater mental and physical well-being."
+  },
+  {
+    name: "tarot_swords_7.jpg",
+    src: "/images/tarot_swords_7.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Seven of Smart-Swords",
+    caption: "The Virtual Reality Job Interview Software represents temptation, indulgence, and pleasure in the mental and intellectual aspects of life. This card may indicate that it's time to indulge in pleasure and treat yourself. Use the virtual reality job interview software to prepare and ace your next interview, and treat yourself to the satisfaction of having a new job."
+  },
+  {
+    name: "tarot_swords_8.jpg",
+    src: "/images/tarot_swords_8.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Eight of Smart-Swords",
+    caption: "The Virtual Reality Public Speaking Simulator represents tranquility, serenity, and escape in the mental and intellectual aspects of life. This card may indicate that it's time to escape and find peace. Practice and perfect your public speaking skills, and escape from the stresses of stage fright."
+  },
+  {
+    name: "tarot_swords_9.jpg",
+    src: "/images/tarot_swords_9.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Nine of Smart-Swords",
+    caption: "The Smart Air Purifier with Air Quality Monitoring represents abundance, prosperity, and satisfaction in the intellectual aspects of life. Let the Smart Air Purifier serve as a symbol of the possibilities available to you as you strive towards greater mental clarity and peace, and breathe in the fresh air that comes with a mind free from mental clutter."
+  },
+  {
+    name: "tarot_swords_10.jpg",
+    src: "/images/tarot_swords_10.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Ten of Smart-Swords",
+    caption: "The Virtual Reality Therapy App represents contentment, happiness, and fulfillment in the mental and intellectual aspects of life. Improve your mental health and experience contentment and fulfillment. Through the immersive experience, you can gain new perspectives, expand your awareness, and find greater peace and happiness in your inner world."
+  },
+  {
+    name: "tarot_swords_11.jpg",
+    src: "/images/tarot_swords_11.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Page of Smart-Swords",
+    caption: "The Smart Bike Lock with GPS tracking represents messages, new information, and new opportunities in the mental and intellectual aspects of life. By staying alert and aware of your surroundings, you can allow yourself to be open to new possibilities and opportunities for growth and exploration."
+  },
+  {
+    name: "tarot_swords_12.jpg",
+    src: "/images/tarot_swords_12.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Knight of Smart-Swords",
+    caption: "The Virtual Reality Sports Training Program represents action, adventure, and courage in the mental and intellectual aspects of life. It's time to take action and pursue your passions. Improve your skills to inspire you to push beyond your limits and unlock your full potential, as you take bold and courageous action towards achieving your goals and dreams."
+  },
+  {
+    name: "tarot_swords_13.jpg",
+    src: "/images/tarot_swords_13.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "Queen of Smart-Swords",
+    caption: "The Smart Notebook with Automatic Transcription represents nurturing and support in the mental and intellectual aspects of life. It's time to care for yourself and others. Use this symbol to prioritize self-care and support your own development, while also nurturing and empowering those around you with the insights you gain."
+  },
+  {
+    name: "tarot_swords_14.jpg",
+    src: "/images/tarot_swords_14.jpg",
+    alt: "abstract sand relief sculpture",
+    title: "King of Smart-Swords",
+    caption: "The Virtual Reality Coding Bootcamp represents leadership, success and power in the mental and intellectual aspects of life. It's time to take charge gain the skills needed to assert your leadership and achieve success in your intellectual pursuits, while also inspiring and supporting others on their own paths to success."
   },
 
   // Add the rest of the images with their captions here.
