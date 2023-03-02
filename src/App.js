@@ -85,14 +85,6 @@ function App() {
           style={{ width: inputWidth, fontSize: `${Math.min(1.5, 1.5 - 0.01 * text.length)}em` }}
         />
       )}
-      <div className="button-container">
-        {!randomImage && (
-          <button onClick={handleButtonClick}>DEAL</button>
-        )}
-        {randomImage && (
-          <button onClick={handleResetClick}>ask another question</button>
-        )}
-      </div>
 
       {randomImage && (
         <>
@@ -104,9 +96,25 @@ function App() {
       {showPlaceholderImage && !randomImage && (
         <img src="/images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "50vw" }}/>
       )}
+
+      <div className="bottom-container">
+        {randomImage && (
+          <div className="button-container">
+            <button onClick={handleResetClick}>ask another question</button>
+          </div>
+        )}
+      </div>
+
+      {!randomImage && (
+        <div className="button-container">
+        <br></br>
+          <button onClick={handleButtonClick}>DEAL</button>
+        </div>
+      )}
     </div>
   );
 }
+
 
 
 

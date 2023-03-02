@@ -62,7 +62,16 @@ input[type="text"] {
 }
 
 button {
-
+  background-color: #000000;
+  border: 3px,rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7vw;
+  font-family: monospace;
+  font-weight: 300;
 }
 
 image {
