@@ -304,6 +304,111 @@ const images = [
     caption: "The Virtual Reality Coding Bootcamp represents leadership, success and power in the mental and intellectual aspects of life. It's time to take charge gain the skills needed to assert your leadership and achieve success in your intellectual pursuits, while also inspiring and supporting others on their own paths to success."
   },
 
+  //pentacles
+
+  {
+    name: "tarot_pentacles_1.jpg",
+    src: "/images/tarot_pent_1.jpg",
+    alt: "abstract dirt relief",
+    title: "Ace of Smart-Pentacles",
+    caption: "The Smart Financial Management App represents new beginnings, stability, and security in the material and practical aspects of life. This card may indicate that it's time to embark on a journey towards stability and security in your finances. Utilize your internal spreadsheet mind: manage your psychic resources and take control of your financial future."
+  },
+  {
+    name: "tarot_pentacles_2.jpg",
+    src: "/images/tarot_pent_2.jpg",
+    alt: "abstract dirt relief",
+    title: "Two of Smart-Pentacles",
+    caption: "The Virtual Reality Interior Design software represents perfect balance, harmony, and stability in the material and practical aspects of life. Design your dream home and find balance in your surroundings and harmony in your physical environment."
+  },
+  {
+    name: "tarot_pentacles_3.jpg",
+    src: "/images/tarot_pent_3.jpg",
+    alt: "abstract dirt relief",
+    title: "Three of Smart-Pentacles",
+    caption: "The Smart Home Security System with Facial Recognition represents celebration, joy, and togetherness in the material and practical aspects of life. It's time to celebrate: have fun and enjoy the company of others… but don't invite everyone. Ensure the safety of your home so you can cherish the ones inside."
+  },
+  {
+    name: "tarot_pentacles_4.jpg",
+    src: "/images/tarot_pent_4.jpg",
+    alt: "abstract dirt relief",
+    title: "Four of Smart-Pentacles",
+    caption: "The Virtual reality Fitness Class represents introspection, contemplation, and inner peace in the material and practical aspects of life. Work out virtually and you will find inner peace. Through the combination of technology and physical exercise, this  highlights the potential for a holistic approach to wellness that incorporates both the mind and body."
+  },
+  {
+    name: "tarot_pentacles_5.jpg",
+    src: "/images/tarot_pent_5.jpg",
+    alt: "abstract dirt relief",
+    title: "Five of Smart-Pentacles",
+    caption: "The Smart Tax Preparation Software represents loss, grief, and healing in the material and practical aspects of life. This card may indicate that it's time to grieve, heal, and move on from a loss. Just get it over with!  File your taxes already and find closure and healing."
+  },
+  {
+    name: "tarot_pentacles_6.jpg",
+    src: "/images/tarot_pent_6.jpg",
+    alt: "abstract dirt relief",
+    title: "Six of Smart-Pentacles",
+    caption: "The Virtual Reality Home Renovation Tool represents memories, nostalgia, and looking back in the material and practical aspects of life. This card may indicate that it's time to reminisce on past memories. Alternatively, this may also suggest the potential for creative expression and transformation through the process of home renovation, as well as the importance of balance and fairness in managing material resources."
+  },
+  {
+    name: "tarot_pentacles_7.jpg",
+    src: "/images/tarot_pent_7.jpg",
+    alt: "abstract dirt relief",
+    title: "Seven of Smart-Pentacles",
+    caption: "The Smart Gardening App with Weather Forecasting represents temptation, indulgence, and pleasure in the material and practical aspects of life. Grow your own food! Consider the potential for sustainable and eco-friendly practices, as well as the importance of nurturing and caring for the natural world, and the satisfaction that comes from being self-sufficient and connected to the earth."
+  },
+  {
+    name: "tarot_pentacles_8.jpg",
+    src: "/images/tarot_pent_8.jpg",
+    alt: "abstract dirt relief",
+    title: "Eight of Smart-Pentacles",
+    caption: "The Virtual Reality Cooking Class represents tranquility, serenity, and escape in the material and practical aspects of life. Escape and find culinary tranquility. Learn new recipes, as well as the importance of patience, in the pursuit of excellence. Seize opportunities to connect with people from different cultures and to learn about different culinary traditions."
+  },
+  {
+    name: "tarot_pentacles_9.jpg",
+    src: "/images/tarot_pent_9.jpg",
+    alt: "abstract dirt relief",
+    title: "Nine of Smart-Pentacles",
+    caption: "The Smart Personal Shopping Assistant with Budgeting represents abundance, and prosperity in the material and practical aspects of life. Shop smart and achieve satisfaction in your purchases. Metaphorically help fellow users make informed decisions about their purchases while also ensuring that they stay within their budget and achieve greater financial security."
+  },
+  {
+    name: "tarot_pentacles_10.jpg",
+    src: "/images/tarot_pent_10.jpg",
+    alt: "abstract dirt relief",
+    title: "Ten of Smart-Pentacles",
+    caption: "The Virtual Reality Real Estate Tour represents contentment, happiness, and fulfillment in the material and practical aspects of life. Take this unique opportunity to explore and envision your dream home, and to manifest your desires and aspirations in the physical world. What are you waiting for? Go tour around your imaginary home."
+  },
+  {
+    name: "tarot_pentacles_11.jpg",
+    src: "/images/tarot_pent_11.jpg",
+    alt: "abstract dirt relief",
+    title: "Page of Smart-Pentacles",
+    caption: "The Smart Energy Management System represents messages, new information, and new opportunities in the material and practical aspects of life. It's time to be open to new data and opportunities in regards to managing your resources. By being receptive to new information, you can potentially save money on your bills, as well as reduce your mental footprint and contribute to a more sustainable future."
+  },
+  {
+    name: "tarot_pentacles_12.jpg",
+    src: "/images/tarot_pent_12.jpg",
+    alt: "abstract dirt relief",
+    title: "Knight of Smart-Pentacles",
+    caption: "The Virtual Reality Home Organization Tool represents action, adventure, and courage in the material and practical aspects of life. By utilizing tools to declutter and organize your home, you can create a more efficient and productive space that supports your personal and professional growth. Take action and pursue organization and efficiency in your physical environment!"
+  },
+  {
+    name: "tarot_pentacles_13.jpg",
+    src: "/images/tarot_pent_13.jpg",
+    alt: "abstract dirt relief",
+    title: "Queen of Smart-Pentacles",
+    caption: "The Smart Budgeting and Saving App represents nurturing, care, and support in the material and practical aspects of life. Use the smart budgeting and saving app to manage your loved ones in their financial goals. This may indicate the potential for career success or financial stability through practical skills and attention to detail, and the importance of being disciplined and organized in pursuing your goals. Nurture yourself and others financially."
+  },
+  {
+    name: "tarot_pentacles_14.jpg",
+    src: "/images/tarot_pent_14.jpg",
+    alt: "abstract dirt relief",
+    title: "King of Smart-Pentacles",
+    caption: "The Virtual Reality Home Renovation Software represents the potential for leadership, success, and power in the practical and material realm, as well as the importance of strategic planning and discipline in achieving success. By using the software to manage and plan home renovations, you can create a space that reflects their personal and professional aspirations. Lead the way in managing and improving your physical environment!"
+  },
+
+  //Majors
+
+
+
   // Add the rest of the images with their captions here.
 ];
 
