@@ -407,9 +407,161 @@ const images = [
 
   //Majors
 
-
-
-  // Add the rest of the images with their captions here.
+  {
+    name: "tarot_MAJOR_1.jpg",
+    src: "/images/tarot_MAJOR_1.jpg",
+    alt: "abstract dirt relief",
+    title: "I. Electric Kick-Scooter",
+    caption: "impulsiveness, freedom, a jaunty attitude, a new beginning, risk, and intuition. It is time to embrace new opportunities and take a leap of faith. Don't be afraid to break free from routine, embark on a thrilling journey of self-discovery and achieve greater levels of freedom in your life."
+  },
+  {
+    name: "tarot_MAJOR_2.jpg",
+    src: "/images/tarot_MAJOR_2.jpg",
+    alt: "abstract dirt relief",
+    title: "II. Smart-Speaker with Screen",
+    caption: "communication, technology, and the ability to manipulate one's environment; resourcefulness, creativity, and the power of transformation. Utilizing your resources and communication skills could lead to the manifestation of desired outcome. Speak your truth, make your words your reality."
+  },
+  {
+    name: "tarot_MAJOR_3.jpg",
+    src: "/images/tarot_MAJOR_3.jpg",
+    alt: "abstract dirt relief",
+    title: "III. Smart-Ring",
+    caption: "intuition, secret knowledge, and the ability to onboard information at a glance: intuition, secrets, and the unconscious mind. This card may signify the importance of trusting one's intuition and responding to inner guidance. Follow your gut feelings, trust the whispers of your inner voice."
+  },
+  {
+    name: "tarot_MAJOR_4.jpg",
+    src: "/images/tarot_MAJOR_4.jpg",
+    alt: "abstract dirt relief",
+    title: "IV. Electric-Bike Sharing",
+    caption: "abundance, fertility and the power of nature. This card may indicate the need to balance the use of technology with the natural environment and to be mindful of the resources available. Take a ride, enjoy the journey!"
+  },
+  {
+    name: "tarot_MAJOR_5.jpg",
+    src: "/images/tarot_MAJOR_5.jpg",
+    alt: "abstract dirt relief",
+    title: "V. VR Headset with Hand-Tracking",
+    caption: "a tool for shaping one's own reality and gaining greater control over one's life, offering authority, stability, and power. It is time to take control of your reality and shape your own destiny. Use the power to create the world you want to inhabit."
+  },
+  {
+    name: "tarot_MAJOR_6.jpg",
+    src: "/images/tarot_MAJOR_6.jpg",
+    alt: "abstract dirt relief",
+    title: "VI. Music-Streaming Service with Podcasts",
+    caption: "guidance, tradition and wisdom. This card may indicate the need for guidance and seeking advice from experts. Embrace the power of knowledge and find your rhythm."
+  },
+  {
+    name: "tarot_MAJOR_7.jpg",
+    src: "/images/tarot_MAJOR_7.jpg",
+    alt: "abstract dirt relief",
+    title: "VII. Virtual Reality Dating App",
+    caption: "love, connection and relationships. This card may indicate that it is time to open your heart to new pathways. Dive into the virtual world of dating reality and find your perfect match(es)."
+  },
+  {
+    name: "tarot_MAJOR_8.jpg",
+    src: "/images/tarot_MAJOR_8.jpg",
+    alt: "abstract dirt relief",
+    title: "VIII. Delivery Robot",
+    caption: "progress, movement, and determination. This card may indicate that it is time to focus on your goals, set your course, and make progress. Let your internal cybernetic robots do the work, and onward, go."
+  },
+  {
+    name: "tarot_MAJOR_9.jpg",
+    src: "/images/tarot_MAJOR_9.jpg",
+    alt: "abstract dirt relief",
+    title: "IX. AI-Powered Personal Trainer",
+    caption: "inner strength, goal-setting  and discipline. This card may indicate that it is time to focus on physical growth and self-improvement. Let your internal AI guide you to reach your full potential."
+  },
+  {
+    name: "tarot_MAJOR_10.jpg",
+    src: "/images/tarot_MAJOR_10.jpg",
+    alt: "abstract dirt relief",
+    title: "X. Virtual Reality Self-Care Program",
+    caption: "introspection, solitude and inner peace. This card may indicate that it is time to engage in  self-care and mental well-being. Take a journey into spiritual virtual reality to find inner peace and rejuvenation."
+  },
+  {
+    name: "tarot_MAJOR_11.jpg",
+    src: "/images/tarot_MAJOR_11.jpg",
+    alt: "abstract dirt relief",
+    title: "XI. Online Marketplace with Built-in Regulation",
+    caption: "change, cycles, and fate. This card may indicate that it's time to adapt to changes and seize new opportunities. Find the right deals on the regulated marketplace of life."
+  },
+  {
+    name: "tarot_MAJOR_12.jpg",
+    src: "/images/tarot_MAJOR_12.jpg",
+    alt: "abstract dirt relief",
+    title: "XII. AI-powered Legal Research and Analysis",
+    caption: "balance, fairness, equity, and access. This card may indicate that you need to seek justice and make fair decisions. Let your AI guide you through the metaphysical legal system."
+  },
+  {
+    name: "tarot_MAJOR_13.jpg",
+    src: "/images/tarot_MAJOR_13.jpg",
+    alt: "abstract dirt relief",
+    title: "XIII. Social Media Platform with Built-in Fact-Checking",
+    caption: "sacrifice, perspective, and understanding. This card may indicate that it's time to let go of certain things for the greater good and to gain a new perspective. Stan a platform that verifies the truth."
+  },
+  {
+    name: "tarot_MAJOR_14.jpg",
+    src: "/images/tarot_MAJOR_14.jpg",
+    alt: "abstract dirt relief",
+    title: "XIV. 3D Organ Printing",
+    caption: "rebirth, renewal, and transformation. This card may indicate that it's time to purge outdated ideas. Let go of outdated, organic, legacy organs that don't serve you anymore. Upgrade to new 3D-printed ones."
+  },
+  {
+    name: "tarot_MAJOR_15.jpg",
+    src: "/images/tarot_MAJOR_15.jpg",
+    alt: "abstract dirt relief",
+    title: "XV. Wearable Device that Monitors the Body and Environment",
+    caption: "moderation, co-existence  and synthesis. This card may indicate that it's time to find balance and harmony in your life. Use a wearable device to keep track of your health and the environment."
+  },
+  {
+    name: "tarot_MAJOR_16.jpg",
+    src: "/images/tarot_MAJOR_16.jpg",
+    alt: "abstract dirt relief",
+    title: "XVI. Nicotine-Free Vaporizer",
+    caption: "temptation, addiction, and release. This card may indicate that it's time to break free from bad habits and addictions and the potential for healing and growth through mindfulness, therapy, or other forms of self-care. Try a vice that’s more virtuous!"
+  },
+  {
+    name: "tarot_MAJOR_17.jpg",
+    src: "/images/tarot_MAJOR_17.jpg",
+    alt: "abstract dirt relief",
+    title: "XVII. Smart City Infrastructure with Built-in Privacy Protection",
+    caption: "upheaval, change, and destruction. This card may indicate that it's time to rebuild and create something new. Create an internal city for yourself that is safe, efficient and respects privacy."
+  },
+  {
+    name: "tarot_MAJOR_18.jpg",
+    src: "/images/tarot_MAJOR_18.jpg",
+    alt: "abstract dirt relief",
+    title: "XVIII. AI-Powered Content Creation and Distribution Platform",
+    caption: "creativity, inspiration, and success. This card may indicate that it's time to tap into your creative potential and share your ideas with the world. Use AI-powered tools to create and distribute content to the universe."
+  },
+  {
+    name: "tarot_MAJOR_19.jpg",
+    src: "/images/tarot_MAJOR_19.jpg",
+    alt: "abstract dirt relief",
+    title: "XIX. Lunar Exploration Robot with AI-powered Decision Making",
+    caption: "intuition, mystery, and the unknown. This card may indicate that it's time to explore the unknown and trust your intuition. Use AI and robots to explore your moon."
+  },
+  {
+    name: "tarot_MAJOR_20.jpg",
+    src: "/images/tarot_MAJOR_20.jpg",
+    alt: "abstract dirt relief",
+    title: "XX. Solar-Powered Device with Built-in Energy Storage",
+    caption: "power, vitality, and success. This card may indicate that it's time to harness the power of the sun and use sustainable energy. Become a device that stores energy from the sun and uses it later."
+  },
+  {
+    name: "tarot_MAJOR_21.jpg",
+    src: "/images/tarot_MAJOR_21.jpg",
+    alt: "abstract dirt relief",
+    title: "XXI. AI-powered Customer Service Chatbot with Emotional Intelligence",
+    caption: "judgment, responsibility, and redemption. This card may indicate that it's time to take responsibility for your actions and make amends. Use AI-powered chatbot for customer service that understands emotions."
+  },
+  {
+    name: "tarot_MAJOR_22.jpg",
+    src: "/images/tarot_MAJOR_22.jpg",
+    alt: "abstract dirt relief",
+    title: "XXII. Quantum Internet",
+    caption: "completion, wholeness, and fulfillment. This card may indicate that it's time to manifest your goals and bring your plans to fruition. Use the power of the quantum internet for faster, more secure communication, and complete your projects."
+  },
+  
 ];
 
 function App() {
