@@ -35,7 +35,7 @@ p {
 h1 {
 font-family: 'Phudu';
 font-weight: 900;
-
+margin-bottom: 0vw;
 }
 
 h2 {
@@ -44,12 +44,15 @@ h2 {
   size: 2vw;
   font-family: 'Phudu';
   font-weight: 300;
+  margin-bottom: 2vw;
+  margin-top: 0vw;
 }
 
 h3 {
   color: white;
   size: 5vw;
   font-family: roboto;
+  margin-bottom: .5vw;
 }
 
 .button-container {
@@ -72,6 +75,11 @@ button {
   font-size: 1.7vw;
   font-family: monospace;
   font-weight: 300;
+}
+
+button:hover {
+  background-color: #590032; 
+  color: white;
 }
 
 image {
@@ -101,4 +109,11 @@ footer {
 
 .fadeOut {
   opacity: 0;
+}
+#quote {
+  color: yellow;
+  font-family: roboto;
+  font-style: italic;
+  font-size: 2.5vw;
+  margin-bottom: 0vw;;
 }

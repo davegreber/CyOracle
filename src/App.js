@@ -33,7 +33,7 @@ function App() {
   const [text, setText] = useState("");
   const [randomImage, setRandomImage] = useState(null);
   const [inputWidth, setInputWidth] = useState("60vw");
-  const [inputPlaceholder, setInputPlaceholder] = useState("ask a question about your present");
+  const [inputPlaceholder, setInputPlaceholder] = useState("ASK A QUESTION");
   const [showPlaceholderImage, setShowPlaceholderImage] = useState(true);
   const [showImage, setShowImage] = useState(false);
   const [showText, setShowText] = useState(false);
@@ -52,6 +52,19 @@ function App() {
   };
 
   const handleButtonClick = () => {
+    const trimmedText = text.trim();
+    if (trimmedText === "") {
+      return;
+    }
+    const lastChar = trimmedText.charAt(trimmedText.length - 1);
+    if (lastChar !== "?") {
+      setText("");
+      setInputWidth("60vw");
+      setInputPlaceholder("MUST BE A QUESTION");
+      setShowPlaceholderImage(true);
+      setShowText(false);
+      return;
+    }
     const randomImage = selectRandomImage();
     setRandomImage(randomImage);
     setShowPlaceholderImage(false);
@@ -67,53 +80,70 @@ function App() {
     setText("");
     setRandomImage(null);
     setInputWidth("60vw");
-    setInputPlaceholder("ask another question");
+    setInputPlaceholder("ASK ANOTHER QUESTION");
     setShowPlaceholderImage(true);
     setShowText(false);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      if (text.endsWith("?")) {
+        handleButtonClick();
+      } else {
+        setText("");
+        setInputPlaceholder("ENTER A QUESTION");
+        setInputWidth("60vw");
+      }
+    }
   };
 
   return (
     <div className="container">
       {showText ? (
-        <h3>{text}</h3>
+        <h3 id="quote">"{text}"</h3>
       ) : (
         <input
           type="text"
           value={text}
           onChange={handleTextChange}
+          onKeyDown={handleKeyDown}
           placeholder={inputPlaceholder}
-          style={{ width: inputWidth, fontSize: `${Math.min(1.5, 1.5 - 0.01 * text.length)}em` }}
+          style={{  width: inputWidth, fontSize: `${Math.min(1.5, 1.5 - 0.01 * text.length)}em`, overflow: "visible" }}
         />
       )}
 
       {randomImage && (
         <>
-          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "50vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`}/>
+          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "50vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
           <h3>{randomImage.title}</h3>
           <p>{randomImage.caption}</p>
         </>
       )}
       {showPlaceholderImage && !randomImage && (
-        <img src="/images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "50vw" }}/>
+        <img src="/images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "50vw" }} />
       )}
 
       <div className="bottom-container">
         {randomImage && (
           <div className="button-container">
-            <button onClick={handleResetClick}>ask another question</button>
+            <button onClick={handleResetClick}>ASK ANOTHER</button>
           </div>
         )}
       </div>
 
       {!randomImage && (
         <div className="button-container">
-        <br></br>
+          <br />
           <button onClick={handleButtonClick}>DEAL</button>
         </div>
       )}
     </div>
   );
 }
+
+
+
 
 
 
