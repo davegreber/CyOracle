@@ -208,7 +208,7 @@ const images = [
   {
     name: "tarot_swords_1.jpg",
     src: "/images/tarot_swords_1.jpg",
-    alt: "aabstract sand relief sculpture",
+    alt: "abstract sand relief sculpture",
     title: "Ace of Smart-Swords",
     caption: "The Voice Recognition Software represents new beginnings, clarity, and decision making. This card may indicate that it's time to start something new, express yourself clearly and make important decisions. Use the voice recognition software to command your devices and take control of your environment. Let your voice be heard… and understood."
   },
@@ -567,7 +567,7 @@ const images = [
 function App() {
   const [text, setText] = useState("");
   const [randomImage, setRandomImage] = useState(null);
-  const [inputWidth, setInputWidth] = useState("60vw");
+  const [inputWidth, setInputWidth] = useState("70vw");
   const [inputPlaceholder, setInputPlaceholder] = useState("ASK A QUESTION");
   const [showPlaceholderImage, setShowPlaceholderImage] = useState(true);
   const [showImage, setShowImage] = useState(false);
@@ -595,7 +595,7 @@ function App() {
     const lastChar = trimmedText.charAt(trimmedText.length - 1);
     if (lastChar !== "?") {
       setText("");
-      setInputWidth("60vw");
+      setInputWidth("70vw");
       setInputPlaceholder("MUST BE A QUESTION");
       setShowPlaceholderImage(true);
       setShowText(false);
@@ -615,7 +615,7 @@ function App() {
   const handleResetClick = () => {
     setText("");
     setRandomImage(null);
-    setInputWidth("60vw");
+    setInputWidth("70vw");
     setInputPlaceholder("ASK ANOTHER QUESTION");
     setShowPlaceholderImage(true);
     setShowText(false);
@@ -629,7 +629,7 @@ function App() {
       } else {
         setText("");
         setInputPlaceholder("ENTER A QUESTION");
-        setInputWidth("60vw");
+        setInputWidth("70vw");
       }
     }
   };
@@ -651,13 +651,13 @@ function App() {
 
       {randomImage && (
         <>
-          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "50vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
+          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "70vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
           <h3>{randomImage.title}</h3>
           <p>{randomImage.caption}</p>
         </>
       )}
       {showPlaceholderImage && !randomImage && (
-        <img src="/images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "50vw" }} />
+        <img src="/images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "70vw" }} />
       )}
 
       <div className="bottom-container">
