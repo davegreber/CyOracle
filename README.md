@@ -4,7 +4,7 @@
 <img src="./public/logo192.png" alt="cyoracle logo">
 </p>
 
-CyOracle Tarot is the premier Tarot deck of Digital Serendipity and Transhuman Wisdom.
+<p align="center">CyOracle Tarot is the premier Tarot deck of Digital Serendipity and Transhuman Wisdom.</p>
 
 ## Summary
 
