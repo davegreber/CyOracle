@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CyOracle/static/css/main.ade81312.css",
-    "main.js": "/CyOracle/static/js/main.f80df4ba.js",
-    "static/js/787.28cb0dcd.chunk.js": "/CyOracle/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/CyOracle/index.html",
-    "main.ade81312.css.map": "/CyOracle/static/css/main.ade81312.css.map",
-    "main.f80df4ba.js.map": "/CyOracle/static/js/main.f80df4ba.js.map",
-    "787.28cb0dcd.chunk.js.map": "/CyOracle/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.ade81312.css",
+    "main.js": "/static/js/main.ab597722.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/index.html",
+    "main.ade81312.css.map": "/static/css/main.ade81312.css.map",
+    "main.ab597722.js.map": "/static/js/main.ab597722.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade81312.css",
-    "static/js/main.f80df4ba.js"
+    "static/js/main.ab597722.js"
   ]
 }
