@@ -29,7 +29,7 @@ header {
 p {
   color: white;
   text-align: center;
-  font-family: roboto;
+  font-family: 'Roboto';
   font-size: 100%;
 }
 
@@ -52,7 +52,7 @@ h2 {
 h3 {
   color: white;
   size: 4vw;
-  font-family: roboto;
+  font-family: 'Roboto';
   margin-bottom: .5vw;
 }
 
@@ -112,7 +112,7 @@ image {
 }
 #quote {
   color: yellow;
-  font-family: roboto;
+  font-family: 'Roboto';
   font-style: italic;
   font-size: 2.5vw;
   margin-bottom: 0vw;;
