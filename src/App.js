@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import firebase from "firebase/compat/app";
+import db from "./firebase";
 
 
 const images = [
@@ -572,7 +574,6 @@ function App() {
   const [showPlaceholderImage, setShowPlaceholderImage] = useState(true);
   const [showImage, setShowImage] = useState(false);
   const [showText, setShowText] = useState(false);
-  
 
   const handleTextChange = (event) => {
     setText(event.target.value);
@@ -582,10 +583,18 @@ function App() {
     }
   };
 
-  const selectRandomImage = () => {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    return images[randomIndex];
+  const saveUserInput = async (text, card) => {
+    try {
+      await db.collection("userInputs").add({
+        text: text,
+        card: card,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      });
+    } catch (error) {
+      console.error("Error saving user input: ", error);
+    }
   };
+  
 
   const handleButtonClick = () => {
     const trimmedText = text.trim();
@@ -606,11 +615,21 @@ function App() {
     setShowPlaceholderImage(false);
     setShowImage(false);
     setShowText(true);
+    saveUserInput(text, randomImage); // Add this line
     setTimeout(() => {
       setShowImage(true);
       setRandomImage(randomImage);
     }, 200);
   };
+  
+
+  // ... (rest of the code)
+
+  const selectRandomImage = () => {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+  };
+
 
   const handleResetClick = () => {
     setText("");
@@ -657,7 +676,7 @@ function App() {
         </>
       )}
       {showPlaceholderImage && !randomImage && (
-        <img src="./images/tarot_back.jpg" alt="placeholder" className="fade fadeIn" style={{ width: "70vw" }} />
+        <img src="./images/tarot_back.jpg" alt="cyoracle tarot logo" className="fade fadeIn" style={{ width: "70vw" }} />
       )}
 
       <div className="bottom-container">
