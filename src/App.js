@@ -670,13 +670,13 @@ function App() {
 
       {randomImage && (
         <>
-          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "70vw" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
+          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "70vw",  maxWidth: "1024px" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
           <h3>{randomImage.title}</h3>
           <p>{randomImage.caption}</p>
         </>
       )}
       {showPlaceholderImage && !randomImage && (
-        <img src="./images/tarot_back.jpg" alt="cyoracle tarot logo" className="fade fadeIn" style={{ width: "70vw" }} />
+        <img src="./images/tarot_back.jpg" alt="cyoracle tarot logo" className="fade fadeIn" style={{ width: "70vw",  maxWidth: "1024px" }} />
       )}
 
       <div className="bottom-container">

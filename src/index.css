@@ -24,6 +24,7 @@ header {
   align-items: center;
   width: 80%; /* set the width of the container to 80% of the viewport width */
   margin: auto; /* center the container horizontally */
+  max-width: 1024px;
 }
 
 p {
@@ -51,7 +52,7 @@ h2 {
 
 h3 {
   color: white;
-  size: 4vw;
+  font-size: 4vw;
   font-family: 'Roboto';
   margin-bottom: .5vw;
 }
@@ -63,6 +64,7 @@ h3 {
 input[type="text"] {
   text-align: center;
   font-family: monospace;
+  max-width: 1024px;
 }
 
 button {
@@ -80,12 +82,13 @@ button {
 }
 
 button:hover {
-  background-color: #6b013d; 
+  background-color: #1a000f; 
   color: rgb(255, 255, 133);
 }
 
 image {
   width: 70vw;
+  max-width: 100%;
 }
 
 .footer {
@@ -137,3 +140,14 @@ a:hover {
 color: yellow;
 }
 
+@media (min-width: 1024px) {
+  button {
+    font-size: 20px; 
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h3#quote {
+    font-size: 20px;
+  }
+}
