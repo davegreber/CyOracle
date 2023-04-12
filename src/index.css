@@ -22,7 +22,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%; /* set the width of the container to 80% of the viewport width */
+  width: 75%; /* set the width of the container to 80% of the viewport width */
   margin: auto; /* center the container horizontally */
   max-width: 1024px;
 }
@@ -79,6 +79,8 @@ button {
   font-family: monospace;
   font-weight: 300;
   margin-bottom: 10vh;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 button:hover {
@@ -86,10 +88,7 @@ button:hover {
   color: rgb(255, 255, 133);
 }
 
-image {
-  width: 70vw;
-  max-width: 100%;
-}
+
 
 .footer {
   height: 20px;
@@ -100,7 +99,6 @@ image {
   background-color: #b8b8b8;
   text-align: center;
 }
-
 
 .fade {
   transition: opacity 1s ease-in-out;
@@ -113,6 +111,7 @@ image {
 .fadeOut {
   opacity: 0;
 }
+
 #quote {
   color: yellow;
   font-family: 'Roboto';

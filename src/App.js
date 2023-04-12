@@ -615,15 +615,14 @@ function App() {
     setShowPlaceholderImage(false);
     setShowImage(false);
     setShowText(true);
-    saveUserInput(text, randomImage); // Add this line
+    saveUserInput(text, randomImage); 
     setTimeout(() => {
       setShowImage(true);
       setRandomImage(randomImage);
     }, 200);
   };
   
-
-  // ... (rest of the code)
+//image selector
 
   const selectRandomImage = () => {
     const randomIndex = Math.floor(Math.random() * images.length);
@@ -653,6 +652,7 @@ function App() {
     }
   };
 
+//NFT collect window button
   const handleCollectClick = () => {
     window.open("https://objkt.com/collection/KT1QoBFbpfzAWiDgyZJGttpAUSp7hACNJNtx", "_blank");
   };
@@ -674,20 +674,20 @@ function App() {
 
       {randomImage && (
         <>
-          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "70vw",  maxWidth: "1024px" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
+          <img src={randomImage.src} alt={randomImage.alt} style={{ width: "70vw",  maxWidth: "800px" }} className={`fade ${showImage ? "fadeIn" : "fadeOut"}`} />
           <h3>{randomImage.title}</h3>
           <p>{randomImage.caption}</p>
         </>
       )}
       {showPlaceholderImage && !randomImage && (
-        <img src="./images/tarot_back.jpg" alt="cyoracle tarot logo" className="fade fadeIn" style={{ width: "70vw",  maxWidth: "1024px" }} />
+        <img src="./images/tarot_back.jpg" alt="cyoracle tarot logo" className="fade fadeIn" style={{ width: "70vw",  maxWidth: "800px" }} />
       )}
 
       <div className="bottom-container">
   {randomImage && (
     <div className="button-container">
       <button onClick={handleResetClick}>ASK ANOTHER</button>
-      {/* Add the new "COLLECT CARD" button */}
+      {/* Add the "COLLECT CARD" button */}
       <button onClick={handleCollectClick}>COLLECT CARD</button>
     </div>
   )}
