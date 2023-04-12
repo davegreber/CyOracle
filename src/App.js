@@ -653,6 +653,10 @@ function App() {
     }
   };
 
+  const handleCollectClick = () => {
+    window.open("https://objkt.com/collection/KT1QoBFbpfzAWiDgyZJGttpAUSp7hACNJNtx", "_blank");
+  };
+
   return (
     <div className="container">
       {showText ? (
@@ -680,12 +684,14 @@ function App() {
       )}
 
       <div className="bottom-container">
-        {randomImage && (
-          <div className="button-container">
-            <button onClick={handleResetClick}>ASK ANOTHER</button>
-          </div>
-        )}
-      </div>
+  {randomImage && (
+    <div className="button-container">
+      <button onClick={handleResetClick}>ASK ANOTHER</button>
+      {/* Add the new "COLLECT CARD" button */}
+      <button onClick={handleCollectClick}>COLLECT CARD</button>
+    </div>
+  )}
+</div>
 
       {!randomImage && (
         <div className="button-container">
